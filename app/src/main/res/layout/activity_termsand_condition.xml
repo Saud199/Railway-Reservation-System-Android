@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context="com.example.abdulahad.railwaysystem.TermsandCondition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Terms And Conditions"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:background="@drawable/squareborder"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 1)  Users must have an active Internet Connection."
+            android:textStyle="normal"
+            android:textSize="15dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 2)  You must share your confidential details with us. All details  are end to end encrypted.   "
+            android:textStyle="normal"
+            android:textSize="15dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"
+            android:inputType="textMultiLine"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3) The user must agree to our all Business Policies . Organization has complete rights to delete and change train timings and cancel tickets without any prior notice."
+            android:textStyle="normal"
+            android:textSize="15dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:layout_margin="30dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_gravity="end"
+            android:id="@+id/btnsend"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

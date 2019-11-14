@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/user"
+        android:icon="@drawable/manage_users"
+        android:title="user"
+        app:showAsAction="ifRoom|withText"
+        />
+
+    <item android:id="@+id/email"
+        android:title="Email"
+        android:icon="@drawable/cancel_train"
+        />
+
+    <item android:id="@+id/ph_no"
+        android:title="Phone No"
+        />
+
+
+    <item android:id="@+id/tutorial"
+        android:title="Video Tutorial"
+
+        />
+
+    <item android:id="@+id/help"
+        android:title="Terms and Conditions"
+        android:icon="@drawable/taxi"
+        />
+
+
+
+</menu>

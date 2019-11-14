@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Video Tutorial"
+        android:id="@+id/dtext"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/border"
+        android:layout_margin="20dp"
+        />
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zplayer"
+        android:background="#fff"
+        />
+
+
+    <Button
+        android:id="@+id/ply_video"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Play"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:background="@drawable/roundedbutton"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>

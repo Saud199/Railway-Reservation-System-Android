@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    tools:context="com.example.abdulahad.railwaysystem.User_ContactUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="Contact Us"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_margin="15dp">
+
+
+      <ImageView
+          android:layout_width="200px"
+          android:layout_height="200px"
+          android:src="@drawable/telephone"
+
+          />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/railway_help"
+           android:textColor="@color/black"
+           android:layout_marginLeft="15dp"
+           android:layout_gravity="center"
+           />
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@drawable/taxi"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/taxi_service"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@drawable/bed"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hotel_booking"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@drawable/tourbus"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tourbus"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+   </LinearLayout>
+
+
+
+</ScrollView>

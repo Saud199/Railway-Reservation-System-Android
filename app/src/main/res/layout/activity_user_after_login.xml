@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    tools:context="com.example.abdulahad.railwaysystem.UserAfterLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" LOGGED IN AS : "
+            android:layout_margin="10dp"
+            android:id="@+id/logger_username"
+            android:background="@drawable/border"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"/>
+
+
+        <ViewFlipper
+            android:id="@+id/userflipper"
+            android:layout_width="fill_parent"
+            android:background="@drawable/border"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_margin="15dp"
+            android:layout_height="230sp">
+        </ViewFlipper>
+
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/mywidgetuser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_alignParentRight="true"
+                android:maxLines="1"
+                android:layout_marginLeft="150dp"
+                android:background="@color/colorPrimaryDark"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:singleLine="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:text="Welcome To Railway Resevation System . We provide new Facilites to our customers" />
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="159dp"
+                android:layout_height="130dp"
+                android:text="Book       Ticket"
+                android:layout_margin="10dp"
+                android:drawableTop="@drawable/bookticket"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/roundedbutton"
+                android:id="@+id/id_user_bookticket"
+
+                />
+
+            <Button
+                android:id="@+id/id_user_cancelticket"
+                android:layout_width="159dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/cancelticket"
+                android:text="Cancel    Ticket"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="159dp"
+                android:layout_height="130dp"
+                android:text="My Booked Tickets"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/viewticket"
+                android:layout_weight="1"
+                android:id="@+id/id_user_viewtickets"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:text="View Train Schedule"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:drawableTop="@drawable/view_train"
+                android:background="@drawable/roundedbutton"
+                android:layout_weight="1"
+                android:id="@+id/id_user_viewTerain"
+                />
+
+            <Button
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:text="Give   Feedback"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:drawableTop="@drawable/feedbacksmall"
+                android:layout_weight="1"
+                android:background="@drawable/roundedbutton"
+                android:id="@+id/id_user_givefeedback"
+                />
+
+            <Button
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:text="Contact         Us"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:drawableTop="@drawable/contact_us"
+                android:layout_weight="1"
+                android:background="@drawable/roundedbutton"
+                android:id="@+id/id_user_contactus"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:text="Update Info"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:drawableTop="@drawable/update_info"
+                android:background="@drawable/roundedbutton"
+                android:layout_weight="1"
+                android:id="@+id/id_user_update_info"
+                />
+
+
+            <Button
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:text="About                        Us"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:drawableTop="@drawable/aboutussmall"
+                android:background="@drawable/roundedbutton"
+                android:layout_weight="1"
+                android:id="@+id/id_user_aboutus"
+                />
+
+            <Button
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:text="Video Tutorial"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:drawableTop="@drawable/movieicon"
+                android:layout_weight="1"
+                android:background="@drawable/roundedbutton"
+                android:id="@+id/id_user_video_tutorial"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Log Out"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:drawableTop="@drawable/sign_out"
+                android:layout_weight="1"
+                android:background="@drawable/roundedbutton"
+                android:id="@+id/id_user_signoutbtn"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

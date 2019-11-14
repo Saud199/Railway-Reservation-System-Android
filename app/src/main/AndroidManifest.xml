@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abdulahad.railwaysystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Signup_Activity"
+            android:label="@string/title_activity_signup_"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminAfterLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserAfterLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_ScheduleTrain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_ManageTrain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_viewTickets"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_ManagePassenger"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_ManageUsers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_ViewFeedback"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_BookTicket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_CancelTicket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_ViewAllTicket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_ViewScheduledTrain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_GiveFeedbacks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_ContactUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_AboutUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".YoutubeVideo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_UpdateInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TermsandCondition"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

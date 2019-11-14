@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Railway Reservation System</string>
+    <string name="title_activity_signup_">Signup_Activity</string>
+    <array name="acc_type">
+
+        <item>Customer</item>
+        <item>Admin</item>
+    </array>
+
+
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+
+    <array name="T_class">
+        <item>Buisness Class</item>
+        <item>First Class</item>
+        <item>Econmey Class</item>
+    </array>
+
+    <array name="Trains">
+        <item>Select Train</item>
+    </array>
+
+
+    <array name="Time">
+        <item>AM</item>
+        <item>PM</item>
+
+    </array>
+
+
+    <array name="Train_name">
+
+        <item>Karachi Express</item>
+        <item>Islamabad Express</item>
+        <item>Akbar Express</item>
+        <item>Margalla Express</item>
+        <item>Multan Express</item>
+        <item>Pakistan Express</item>
+        <item>Sialkot Express</item>
+
+    </array>
+
+
+    <array name="From_To">
+        <item>Karachi</item>
+        <item>Lahore</item>
+        <item>Islamabad</item>
+        <item>Rawalpindi</item>
+        <item>Queeta</item>
+        <item>Peshawar</item>
+
+    </array>
+
+
+    <string name="railway_help"><b>Railway Helpline</b>\nTelephoneNo : 9270895</string>
+    <string name="taxi_service"><b>Taxi Service</b>\nTelephoneNo : (021) 111 227 336</string>
+    <string name="hotel_booking"><b>Hotel Booking</b>\nTelephoneNo : (021) 111 505 505</string>
+    <string name="tourbus"><b>Tours and Activities</b>\nTelephoneNo : 0347 0008328</string>
+
+
+</resources>
